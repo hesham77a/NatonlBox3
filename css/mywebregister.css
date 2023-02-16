@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Full Page Intro with a fixed, transparent Navbar */
+.intro-2 {
+    /* background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center; */
+    /* background-size: cover; */
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+/* ======================================================================= */
+
+.view,body,html{height:100%}
+.navbar{background-color:rgba(0,0,0,.2)}
+.page-footer,.top-nav-collapse{background-color:#1C2331}
+@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+#time-counter{font-size:5rem}
+
+/* =================== Class Navicator List ============================================== */
+.ClassNavLi{
+  font-family: 'Cairo', sans-serif;
+ padding: 0px 27px;
+}
+
+
+/* ===================== Div View   ======================== */
+#Section1Div1{
+padding-top: 40px;
+
+
+}
+#Section1Div4{
+    padding-top: 5px;
+    
+    }
+#Section1Div411{         padding-top: 5px;        }
+#IdViewH4{
+    font-family: 'El Messiri', sans-serif;
+    color: #022761;
+     font-weight: bolder; 
+     font-size: x-large;
+}
+#IdViewH41{
+    font-family: 'El Messiri', sans-serif;
+    color: #022761;
+     font-weight: bolder; 
+     font-size: x-large;
+}
+#Section1Div1image{ height: 400px;width: 300px; padding-top:-50px;}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Div View Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:1400px) {
+    #IdViewH1{font-size: 35px; }  
+    #IdViewH4{  font-size: large; }
+    #IdViewH41{  font-size: large; }
+    #IdViewH5{  font-size: large; }
+    #Section1Div411{         padding-top: 120px!important;}
+
+    #Section1Div4{      padding-top: 20px!important;}
+
+    #Section1Div1image{ height: 200px;width: 200px; padding-top:0px;}
+    #Section1Div1{ padding-top: 5px!important; }
+
+}
+
+@media only screen and (max-width:888px) {
+    #IdViewH1{font-size: 35px; }  
+    #IdViewH4{  font-size: large; }
+    #IdViewH41{  font-size: large; }
+    #IdViewH5{  font-size: large; }
+    #Section1Div4{         padding-top: 20px!important;}
+    #Section1Div1image{ height: 200px;width: 200px; padding-top:0px;}
+    #Section1Div1{ padding-top: 10px!important; }
+
+}
+@media only screen and (max-width:515px) {
+    #IdViewH1{font-size: 35px; }  
+    #IdViewH4{  font-size: medium;  }
+    #IdViewH41{  font-size: medium;  }
+    #IdViewH5{  font-size: medium; }
+    #Section1Div4{         padding-top: 10px!important; }
+        #Section1Div1{ padding-top: 10px!important; }
+
+
+        }
+
+
+
+@media only screen and (max-width:490px) {
+   
+    #IdViewH1{font-size: large; }  
+    #IdViewH4{  font-size:  x-small;  }
+    #IdViewH41{  font-size:  x-small; }
+    #IdViewH5{  font-size: x-small; }
+    #Section1Div4{
+        padding-top: 20px!important;
+        
+        }
+}
+
+
+/* 111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+/* ===================================== Section 1 ======================================= */
+#IdSection1Image{
+    width: 100%;
+    max-height: 250px; 
+    margin-top: 70px;
+}
+
+/* =================== slider ============================================== */
+#IdSection2SliderBox{
+    max-height: 700px;
+}
+.ClassH3text{
+    position: absolute;
+    top: -380px;
+    right: -200px;
+    width: 700px;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+line-height: 50px;
+}
+.ClassSection2SliderImage{
+    height: 650px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ slider Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:1400px) {
+    #IdHeader{     max-height: 740px; }
+    .ClassSection2SliderImage{    height: 530px;   }
+    .ClassH3text{   
+    top: -280px;
+    right: -140px;
+     width: 500px;
+     font-size: larger;}}
+    
+@media only screen and (max-width:1000px) {
+        #IdHeader{     max-height: 700px; }
+        #IdSection2SliderBox{  max-height: 450px;}
+        .ClassSection2SliderImage{    height: 530px;   }
+        .ClassH3text{   
+        top: -300px;
+        right: -100px;
+         width: 500px;
+         font-size: large;}}
+@media only screen and (max-width:715px) {
+    /* #IdHeader{     max-height: 600px; } */
+
+    #IdSection1Image{     margin-top: 60px; }
+    #IdSection2SliderBox{  max-height: 480px;}
+    .ClassH3text{   
+        /* top: -300px; */
+        right: -50px;
+         width: 400px;
+         font-size: medium;}}
+
+
+/* ============================ Footer ======================================= */
+
+#IdFooter{
+    visibility: visible;animation-name: fadeIn;
+    height: 400px;
+    margin-top: 160px;
+}
+#IdFooterContactus{
+    padding-top: 50px;
+    font-family: 'El Messiri', sans-serif; 
+    font-size: 35px;
+}
+#IdFooterCallUs{
+    font-size: 20px;
+    font-family: 'El Messiri', sans-serif; 
+    background-color: aliceblue!important;
+    color: #4285F4!important;
+    border-radius: 14px;
+}
+#IdFooterCallUs:hover {
+     background-color: rgb(3, 49, 88)!important;
+     color: #f8fafc!important;
+   } 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ Footer Media @@@@@@@@@@@@@@@@@@@@@@@@ */
+@media only screen and (max-width:1000px) {
+    #IdFooter{     margin-top: 40px;}}
+@media only screen and (max-width:640px) {
+    #IdFooter{  height: 350px;   margin-top: 20px;  }
+    #IdFooterContactus{
+        padding-top: 70px;
+        font-size: 25px;}}
+/* ============================ Footer ======================================= */
+
