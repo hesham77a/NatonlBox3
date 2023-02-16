@@ -212,6 +212,9 @@
 
                          <!--------------------------  QR  ---------------------------------------->
                          <div id="qr-code" style="display:flex; align-items: center; justify-content: center;"></div>
+
+                         <p id="demo" style="text-align:center; font-size: large; font-weight: bold"></p>
+
                          <a href="https://wa.me/00218927152907">Whatsapp Me</a>
                         
 
@@ -251,10 +254,12 @@
                   // Prevent form submission
                   event.preventDefault();
                   let qrContent = " CODE : YGYG2133HBMNYY" + qrContentInput.value +"DTOL"  ;
+
                   if (qrCode == null) {
                        
                     // Generate code initially
                     qrCode = generateQrCode(qrContent);
+                    document.getElementById("demo").innerHTML = qrContent ;
                   } else {
                        
                     // If code already generated then make
